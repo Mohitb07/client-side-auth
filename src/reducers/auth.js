@@ -1,5 +1,5 @@
 const INITIAL_STATE = {
-    authenticated : '',
+    authenticated : '', // we used string for authentication instead of boolean so that we can use token based authentication
     errorMessage : ''
 }
 
